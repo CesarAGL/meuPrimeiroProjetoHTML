@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário com CSS</title>
-    <link rel="stylesheet" href"./css/global.css">
-  </head>
+    <title>Formulário de Login</title>
+    </head>
 <body>
-    <form action="#php" method="post">
-        <label for="nome">Nome Completo:</label><br>
-        <input name="nome" id="nome" type="text" placeholder="Digite seu nome Completo" required><br><br>
+    <form action="*php" method="post">
+        
+            <h1>Login</h1>
 
-        <label for="endereco">E-mail:</label><br>
-        <input name="endereco" id="endereco" type="email" placeholder="Digite seu endereço de E-mail" required><br><br>
+            <p>
+            <label for="usuario">Usuário:</label>
+            <input name="usuario" type="text" required>
+            </p>
 
-        <label for="senha">Senha:</label><br>
-        <input name="senha" id="senha" type="password" placeholder="No máximo 10 caracteres" maxlength="10" required><br><br>
+            <p>
+            <label for="senha">Senha:</label>
+            <input name="senha" type="password"><br><br>
+            </p>
+            <p>
+                <label >
+                <input type="checkbox" name="manterLogado" value="sim">Manter Logado
+                </label>
+            </p>
+            <button type="submit">Login</button><br><br>
+            <p>
+            <a href=" ">Ainda não tem conta?</a>
+            </p>
+            <p>
+            <a href=" ">Esqueceu a senha?</a>
+            </p>
 
-        <label for="confirme">Confirme senha:</label><br>
-        <input name="confirme" id="confirme" type="password" placeholder="Confirme sua senha" maxlength="10" required><br><br>
-
-        <label for="tipo">Qual tipo de usuário você é?</label><br>
-        <select name="tipo" id="tipo">
-            <option value="professor">Professor</option>
-            <option value="aluno">Aluno</option>
-            <option value="jogador">Jogador</option>
-        </select><br><br>
-
-        <button type="submit">Cadastrar</button>
-        <button type="reset">Limpar dados</button>
-
+        
     </form>
 </body>
 </html>
