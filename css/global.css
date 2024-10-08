@@ -1,1 +1,30 @@
-
+ body {
+            text-align: center;
+            background-color: aquamarine;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        label {
+            color: rgb(62, 62, 255);
+        }
+        input {
+            color: rgb(62, 62, 254);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border-color: rgb(62, 62, 255);
+        }
+        select {
+            color: rgb(62, 62, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border-color: rgb(62, 62, 255);
+        }
+        button {
+            background-color: white;
+            color: rgb(62, 62, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border-color: rgb(62, 62, 255);
+        }
