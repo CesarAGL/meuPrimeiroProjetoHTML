@@ -26,3 +26,11 @@
             text-decoration: none;
             color: inherit;
         }
+        a#algo {
+            text-decoration: line-through;
+            color: blue;
+        }
+        a#certo {
+            text-decoration: line-through;
+            color: blue;
+        }
