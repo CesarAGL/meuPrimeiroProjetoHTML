@@ -1,29 +1,29 @@
 body {
     text-align: center;
-    background-color: aquamarine;
+    background-color: beige;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 label {
-    color: rgb(62, 62, 255);
+    color: #4CAF50;
 }
 input {
-    color: rgb(62, 62, 254);
+    color: #4CAF50;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    border-color: rgb(62, 62, 255);
+    border-color: #4CAF50;
 }
 select {
-    color: rgb(62, 62, 255);
+    color: #4CAF50;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    border-color: rgb(62, 62, 255);
+    border-color: #4CAF50;
 }
 button {
-    background-color: white;
-    color: rgb(62, 62, 255);
+    background-color: #4CAF50;
+    color: white;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    border-color: rgb(62, 62, 255);
+    border-color: #4CAF50;
