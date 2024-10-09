@@ -2,31 +2,27 @@
             background: beige;
             font-family: cursive;
             font-size: 16px;
-            text-align: center;
         }
         form {
             text-align: center;
         }
         
         h1 {
-            color: #4CAF50;
-            font-size: 24px;
-        }
-        h3 {
             color: #333;
+            font-size: 24px;
         }
         button {
             background-color: #4CAF50;
             color: white;
             padding: 10px 20px;
-            border-color: #4CAF50;
-            border-radius: 10px;
+            border: none;
+            border-radius: 4px;
             cursor: pointer;
         }
         p {
             margin: 10px 0;
         }
-        a {
+        a#coisa {
             text-decoration: none;
             color: inherit;
         }
